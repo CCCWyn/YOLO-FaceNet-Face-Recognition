@@ -12,7 +12,7 @@ This paper uses YOLOv5 and FaceNet for face recognition of the target person. YO
 ## Table of Contents
 
 - [Dataset Processing](#dataset)
-- [Background](#background)
+- [YOLOv5 Training](#background)
 - [Install](#install)
 - [Usage](#usage)
 - [API](#api)
@@ -20,10 +20,24 @@ This paper uses YOLOv5 and FaceNet for face recognition of the target person. YO
 - [License](#license)
 
 ## Dataset Processing
-The official dataset widerface was used for YOLOv5 face detection training.
+The official dataset [widerface](). was used for YOLOv5 face detection training.
+Converts the label format of data set to that required by YOLOv5.
+```
+run wideFace.py
+```
+```
+run txt2xml2.py
+```
+The Kmeans clustering method is used to automatically generate the target anchor box
+```
+run kmeans.py & run clauculate_anchors.py
+```
 
-### Any optional sections
-
+### YOLOv5 Training
+Modify the parameters as required, and then train YOLOv5 model.
+```
+run trainN.py
+```
 ## Background
 
 ### Any optional sections
@@ -33,6 +47,7 @@ The official dataset widerface was used for YOLOv5 face detection training.
 This module depends upon a knowledge of [Markdown]().
 
 ```
+
 ```
 
 ### Any optional sections
