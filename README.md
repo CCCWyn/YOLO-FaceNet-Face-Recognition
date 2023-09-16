@@ -11,7 +11,7 @@ This paper uses YOLOv5 and FaceNet for face recognition of the target person. YO
 
 ## Table of Contents
 
-- [Dataset processing](#security)
+- [Dataset Processing](#Dataset Processing)
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
@@ -19,7 +19,8 @@ This paper uses YOLOv5 and FaceNet for face recognition of the target person. YO
 - [Contributing](#contributing)
 - [License](#license)
 
-## Security
+## Dataset Processing
+The official dataset widerface was used for YOLOv5 face detection training.
 
 ### Any optional sections
 
