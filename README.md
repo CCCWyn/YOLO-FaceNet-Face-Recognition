@@ -12,7 +12,7 @@ This paper uses YOLOv5 and FaceNet for face recognition of the target person. YO
 ## Table of Contents
 
 - [Dataset Processing](#dataset)
-- [YOLOv5 Training](#background)
+- [YOLOv5 Training](#training)
 - [Install](#install)
 - [Usage](#usage)
 - [API](#api)
