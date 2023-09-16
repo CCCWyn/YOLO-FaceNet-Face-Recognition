@@ -7,13 +7,11 @@
 [![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-This is an example file with maximal choices selected.
-
-This is a long description.
+This paper uses YOLOv5 and FaceNet for face recognition of the target person. YOLOv5 is used to conduct face detection training on the official data set, and the training model is applied to the face detection of the target person, and then the detected target face is sent to FaceNet for recognition. Finally, the detection and recognition experiment is conducted through the image and short video of the target person.
 
 ## Table of Contents
 
-- [Security](#security)
+- [Dataset processing](#security)
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
